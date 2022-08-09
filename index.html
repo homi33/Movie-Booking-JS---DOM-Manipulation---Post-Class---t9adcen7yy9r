@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./app.js" defer type="module"> </script>
-    <link rel="stylesheet" href="./app.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./app.js" defer type="module"></script>
+    <link rel="stylesheet" href="./app.css" />
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#">Movies Book</a>
+      </div>
+      <div class="list">
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Know More</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="loader"></div>
+    <main></main>
 
-    <main>
-
-    </main>
     <div id="booker">
-        <h3 class="v-none">Seat Selector</h3>
-        <div id="booker-grid-holder"></div>
-        <button id="book-ticket-btn" class="v-none">Book my seats</button>
+      <h3 class="v-none">Seat Selector</h3>
+      <div id="booker-grid-holder"></div>
+      <button id="book-ticket-btn" class="v-none">Book my seats</button>
     </div>
-</body>
+    <script src="./app.js"></script>
+    <script src="./api.js"></script>
+  </body>
 </html>
